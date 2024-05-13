@@ -16,5 +16,6 @@ Este projeto foi desenvolvido utilizando HTML, CSS, SCSS, Tailwind e JavaScript.
  - Finalizar o design;
  - Finalizar a responsividade para telas menores; 
  - Adicionar animações com Bibliotecas CSS e JavaScript;
- - Finalizar a tela de checkout.
+ - Finalizar a tela de checkout;
+ - Refatorar o código.
 
