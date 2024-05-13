@@ -7,7 +7,7 @@ Este projeto foi desenvolvido utilizando HTML, CSS, SCSS, Tailwind e JavaScript.
  - HTML
  - CSS
  - Tailwind
- - SCSCC
+ - SCSS
  - Javascript
 
 
