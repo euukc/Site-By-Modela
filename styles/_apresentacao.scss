@@ -1,0 +1,189 @@
+@media screen and (min-width: 1024px) {
+
+    .apresentacao {
+        width: 100%;
+        height: 850px;
+        background-image: url(/src/img/Futuristic\ Technology\ Conference\ Presentation.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;  
+        display: flex;
+        justify-content: space-between;
+       
+
+
+        .text-apresentacao {
+            width: 60%; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;            
+            color: #004AAD;
+                    
+
+
+            h1 {
+                font-size: 400%;
+            }
+
+            h2 {
+                font-size: 200%;
+
+            }
+
+            span {
+                font-size: 150%;
+                padding-top: 5px
+            }
+
+            p {
+                font-size: 150%;
+
+            }
+
+            #botao-fazer-pedidos {
+                background-color: #004AAD;
+                color: #fcce00;
+                padding: 10px;
+                border-radius: 10px;
+                margin-top: 20px;
+                text-shadow: none;
+
+                &:hover {
+                    background-color: #fcce00;
+                    color: #004AAD;
+                    cursor: pointer;
+                    
+                }
+            }
+
+
+        }
+
+        .imagem-modeladora {
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+                    
+            img {
+                width: 600px;
+                border: 1px solid transparent;
+                border-radius: 10px;
+                box-shadow: 0 0 40px #004AAD;                
+                
+                
+                }
+            }
+        }
+
+    }
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .apresentacao {
+        width: 100%;
+        height: 500px;        
+        background-image: url(/src/img/burguer-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        .text-apresentacao {
+            position: absolute;
+            width: 60%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-shadow: 1px 3px 3px black;
+
+            h2 {
+                font-size: 150%;
+            }
+
+            h1 {
+                font-size: 300%;
+
+            }
+
+            p {
+                font-size: 150%;
+
+            }
+
+            #botao-cardapio {
+                background-color: $cor-secundaria;
+                color: $cor-primaria;
+                padding: 5px;
+                border-radius: 10px;
+                margin-top: 20px;
+                text-shadow: none;
+
+                &:hover {
+                    background-color: $cor-primaria;
+                    color: $cor-secundaria;
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+
+    .apresentacao {
+        width: 100%;
+        height: 500px;
+        background-image: url(/src/img/burguer-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        .text-apresentacao {
+            position: absolute;
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-shadow: 1px 3px 3px black;
+
+            h2 {
+                font-size: 100%;
+            }
+
+            h1 {
+                font-size: 200%;
+
+            }
+
+            p {
+                font-size: 100%;
+
+            }
+
+            #botao-cardapio {
+                background-color: $cor-secundaria;
+                color: $cor-primaria;
+                padding: 5px;
+                border-radius: 10px;
+                margin-top: 20px;
+                text-shadow: none;
+
+                &:hover {
+                    background-color: $cor-primaria;
+                    color: $cor-secundaria;
+                }
+            }
+
+        }
+    }
+}

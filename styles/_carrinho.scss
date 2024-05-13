@@ -1,0 +1,11 @@
+#cart-items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15%;
+    gap: 20px;
+    color: black;    
+
+    p {
+        margin-bottom: 0.5%;
+    }
+}

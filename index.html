@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By Modela - Modelagem para Impressão 3D - Faça seu pedido!</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <menu class="menu-itens">
+                <li class="item" data-target="item1">HOME</li>
+                <li class="item" data-target="item2">SOBRE</li>
+                <li class="item" data-target="item3">CATÁLOGO</li>
+                <li class="item" data-target="item4">CONTATOS</li>
+            </menu>
+            <div class="carrinho-compras">
+                <img src="/src/img/carrinho-compras.png" alt="Carrinho de Compras">
+                <span class="contador-carrinho">0</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="scrollToTopBtn">
+            <img class="w-60" src="/src/img/shopping-bag.png" alt="Botão do WhatsApp para realizar pedidos">
+        </div>
+
+        <section class="apresentacao" id="item1">
+            <div class="text-apresentacao">
+                <h1>BY MODELA</h1>
+                <h2>MODELAGEM PARA IMPRESSÃO 3D</h2>
+                <span>Trazemos suas ideias para o mundo real, com precisão e perfeição</span>
+
+                <p class="pt-4 text-2xl" href="" id="botao-fazer-pedidos">Faça seu pedido</p>
+            </div>
+
+            <div class="imagem-modeladora">
+                <img src="/src/img/Imagem IA.jpg" alt="Imagem da Modeladora">
+            </div>
+
+        </section>
+
+        <section class="sobre-nos" id="item2">
+            <div class="title-sobre-nos">
+                <h1>SOBRE</h1>
+            </div>
+            <div class="sobre-nos-itens">
+                <div class="sobrenos-item">
+                    <img src="/src/img/stitchs.gif" alt="Gif de um chaveiro do personagem Stitch">
+                </div>
+
+                <div class="sobrenos-item">
+                    <div class="flex p-4 md:p-8 gap-8 md:gap-16 h-full flex-col justify-center text-center">
+                        <h1 class="text-1xl md:text-2xl"> <span>Sou a Byanka</span>, especializada em <span>modelagens
+                                personalizadas para impressão 3D</span>. Busco constantemente inovação e tendências para
+                            garantir projetos únicos aos meus clientes. Com atenção aos detalhes, transformo ideias em
+                            realidade. </h1>
+                    </div>
+                </div>
+
+                <div class="sobrenos-item">
+                    <img src="/src/img/Foto Byanka.jpeg"
+                        alt="Imagem de duas mãos com luvas pretas, preparando um Hamburguer">
+                </div>
+            </div>
+        </section>
+
+        <!-- overlay -->
+
+        <div class="background"></div>
+
+        <div class="overlay1" id="categoria1">
+
+            <div class="btn-overlay">
+                <button class="closeBtn">Voltar</button>
+
+                <div class="cartOverlay">
+                    <img src="/src/img/carrinho-compras.png" alt="Carrinho de Compras">
+                </div>
+            </div>
+
+            <div class="container-categoria">
+                <div class="produtos-item">
+                    <div class="img-pack">
+                        <img src="/src/img/gifmario.gif" alt="Pack de chaveiros do Mario World">
+                    </div>
+                    <div class="descricao1">
+                        <p>Pack de Modelagens do Mario World</p>
+                    </div>
+                    <div class="valor-carrinho">
+                        <p>R$ 70,00</p>
+                        <button class="add-carrinho" data-name="Pack de Modelagens Mario World" data-price="70.00">
+                            <img src="/src/img/adicionar-ao-carrinho.png" alt="Adicionar no carrinho">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="produtos-item">
+                    <div class="img-pack">
+                        <img src="/src/img/gifmario.gif" alt="Pack de chaveiros do Mario World">
+                    </div>
+                    <div class="descricao1">
+                        <p>Pack de Modelagens do Harry Potter</p>
+                    </div>
+                    <div class="valor-carrinho">
+                        <p>R$ 80,00</p>
+                        <button class="add-carrinho" data-name="Pack de Modelagens do Harry Potter" data-price="80.00">
+                            <img src="/src/img/adicionar-ao-carrinho.png" alt="Adicionar no carrinho">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="produtos-item">
+                    <div class="img-pack">
+                        <img src="/src/img/gifmario.gif" alt="Pack de chaveiros do Mario World">
+                    </div>
+                    <div class="descricao1">
+                        <p>Pack de Modelagens do Pokemon</p>
+                    </div>
+                    <div class="valor-carrinho">
+                        <p>R$ 60,00</p>
+                        <button class="add-carrinho" data-name="Pack de Modelagens do Pokemon" data-price="60.00">
+                            <img src="/src/img/adicionar-ao-carrinho.png" alt="Adicionar no carrinho">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="produtos-item">
+                    <div class="img-pack">
+                        <img src="/src/img/gifmario.gif" alt="Pack de chaveiros do Mario World">
+                    </div>
+                    <div class="descricao1">
+                        <p>Pack de Modelagens do One Peace</p>
+                    </div>
+                    <div class="valor-carrinho">
+                        <p>R$ 50,00</p>
+                        <button class="add-carrinho" data-name="Pack de Modelagens do One Peace" data-price="50.00">
+                            <img src="/src/img/adicionar-ao-carrinho.png" alt="Adicionar no carrinho">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay2" id="categoria2">
+            <div class="btn-overlay">
+                <button class="closeBtn">Voltar</button>
+
+                <div class="cartOverlay">
+                    <img src="/src/img/carrinho-compras.png" alt="Carrinho de Compras">
+                </div>
+            </div>
+
+            <div class="container-categoria">
+                <div class="produtos-item">
+                    <div class="img-pack">
+                        <img src="/src/img/gifmario.gif" alt="Pack de chaveiros do Mario World">
+                    </div>
+                    <div class="descricao1">
+                        <p>Pack de Modelagens de Chaveiros do Mario World</p>
+                    </div>
+                    <div class="valor-carrinho">
+                        <p>R$ 70,00</p>
+                        <button class="add-carrinho" data-name="Pack de Modelagens de Chaveiros do Mario World"
+                            data-price="70.00">
+                            <img src="/src/img/adicionar-ao-carrinho.png" alt="Adicionar no carrinho">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="produtos-item">
+                    <div class="img-pack">
+                        <img src="/src/img/gifmario.gif" alt="Pack de chaveiros do Mario World">
+                    </div>
+                    <div class="descricao1">
+                        <p>Pack de Modelagens de Chaveiros do Mario World</p>
+                    </div>
+                    <div class="valor-carrinho">
+                        <p>R$ 70,00</p>
+                        <button class="add-carrinho" data-name="Pack de Modelagens de Chaveiros do Mario World"
+                            data-price="70.00">
+                            <img src="/src/img/adicionar-ao-carrinho.png" alt="Adicionar no carrinho">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay3" id="categoria3">
+
+            <div class="btn-overlay">
+                <button class="closeBtn">Voltar</button>
+
+                <div class="cartOverlay">
+                    <img src="/src/img/carrinho-compras.png" alt="Carrinho de Compras">
+                </div>
+            </div>
+
+            <div class="container-categoria">
+                <div class="produtos-item">
+                    <div class="img-pack">
+                        <img src="/src/img/gifmario.gif" alt="Pack de chaveiros do Mario World">
+                    </div>
+                    <div class="descricao1">
+                        <p>Chaveiro Avulso do Harry Potter</p>
+                    </div>
+                    <div class="valor-carrinho">
+                        <p>R$ 70,00</p>
+                        <button class="add-carrinho" data-name="Chaveiro Avulso do Harry Potter" data-price="70.00">
+                            <img src="/src/img/adicionar-ao-carrinho.png" alt="Adicionar no carrinho">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="produtos-item">
+                    <div class="img-pack">
+                        <img src="/src/img/gifmario.gif" alt="Pack de chaveiros do Mario World">
+                    </div>
+                    <div class="descricao1">
+                        <p>Chaveiro Avulso do Harry Potter</p>
+                    </div>
+                    <div class="valor-carrinho">
+                        <p>R$ 70,00</p>
+                        <button class="add-carrinho" data-name="Chaveiro Avulso do Harry Potter" data-price="70.00">
+                            <img src="/src/img/adicionar-ao-carrinho.png" alt="Adicionar no carrinho">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay4" id="categoria4">
+
+            <div class="btn-overlay">
+                <button class="closeBtn">Voltar</button>
+
+                <div class="cartOverlay">
+                    <img src="/src/img/carrinho-compras.png" alt="Carrinho de Compras">
+                </div>
+            </div>
+
+            <div class="container-categoria">
+                <div class="produtos-item">
+                    <div class="img-pack">
+                        <img src="/src/img/gifmario.gif" alt="Pack de chaveiros do Mario World">
+                    </div>
+                    <div class="descricao1">
+                        <p>Chaveiro Avulso do Pokemon</p>
+                    </div>
+                    <div class="valor-carrinho">
+                        <p>R$ 70,00</p>
+                        <button class="add-carrinho" data-name="Chaveiro Avulso do Pokemon" data-price="70.00">
+                            <img src="/src/img/adicionar-ao-carrinho.png" alt="Adicionar no carrinho">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="produtos-item">
+                    <div class="img-pack">
+                        <img src="/src/img/gifmario.gif" alt="Pack de chaveiros do Mario World">
+                    </div>
+                    <div class="descricao1">
+                        <p>Chaveiro Avulso do Pokemon</p>
+                    </div>
+                    <div class="valor-carrinho">
+                        <p>R$ 70,00</p>
+                        <button class="add-carrinho" data-name="Chaveiro Avulso do Pokemon" data-price="70.00">
+                            <img src="/src/img/adicionar-ao-carrinho.png" alt="Adicionar no carrinho">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end overlay -->
+
+        <!-- modal carrinho de compras -->
+
+        <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center flex hidden"
+            id="cart-modal">
+            <div class="bg-white p-5 rounded-md min-w-[70%] md:min-w-[900px] md:min-h-[200px] overflow-y-auto">
+                <h2 class="text-center font-bold text-2x1 mb-12 text-black">Meu carrinho</h2>
+
+                <div id="cart-items" class="flex justify-between mb-2 flex-col">
+
+                </div>
+                <p class="font-bold text-black">Total: <span id="cart-total">0.00</span></p>
+
+                <div class="flex items-center justify-between mt-5 w-full">
+                    <button class="text-black" id="close-modal-btn">Voltar</button>
+                    <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar
+                        pedido</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- end modal carrinho de compras -->
+
+        <!-- modal checkout -->
+
+        <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center flex hidden"
+            id="cart-checkout">
+            <div class="bg-white p-5 rounded-md min-w-[70%] md:max-w-[500px] md:min-h-[300px] overflow-y-auto">
+                <h2 class="text-center font-bold text-2x1 mb-12 text-black">Realize o pagamento</h2>
+
+                <div id="cart-items-qrcode" class="flex justify-center">
+
+                    <div class="qrcode-pagamento flex justify-center w-2/4">
+                        <p> </p> 
+                        
+                        <img class="w-2/4 h-2/3" src="/src/img/qrcode-pagamento.jpeg" alt="QRCODE para pagamento">
+                        
+
+                    </div>
+
+                    <div class="qrcode-whatsapp flex justify-center w-2/4 text-black">
+                        <img class="w-2/4 h-2/3" src="/src/img/qrcode-pagamento.jpeg" alt="QRCODE para pagamento">
+                        
+                    </div>
+
+                </div>                
+
+                <div class="flex items-center justify-around mt-5 w-full flex-wrap gap-6">
+                    <p class="font-bold text-black md:w-full md:ml-60">Após realizar o pagamento, encaminhe o comprovante por WhatsApp para receber seus STLs!</p>
+                    <button class="text-black" id="close-btn-checkout">Voltar</button>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <!-- end modal checkout -->
+
+        <section class="catalogo" id="item3">
+            <div class="menu">
+                <h1> CATÁLOGO</h1>
+            </div>
+            <div class="escolher">
+                <span>Escolha a categoria:</span>
+            </div>
+            <div class="itens-catalogo">
+                <div class="item-catalogo" data-categoria="categoria1">
+                    <img src="/src/img/pack de chaveiros.png" alt="Imagem de um pack de chaveiros">
+                    <div class="txt-itens">
+                        <span> PACKS DE CHAVEIROS</span>
+                    </div>
+                </div>
+                <div class="item-catalogo" data-categoria="categoria2">
+                    <img src="/src/img/gifmario.gif" alt="Imagem do Hamburguer">
+                    <div class="txt-itens">
+                        <span id="txt-mario">CHAVEIROS AVULSOS DO MARIO WORLD </span>
+                    </div>
+
+
+                </div>
+                <div class="item-catalogo" data-categoria="categoria3">
+                    <img src="/src/img/gifmario.gif" alt="Imagem do Hamburguer">
+                    <div class="txt-itens">
+                        <span id="txt-mario">CHAVEIROS AVULSOS DO MARIO WORLD </span>
+                    </div>
+
+
+                </div>
+                <div class="item-catalogo" data-categoria="categoria4">
+                    <img src="/src/img/gifmario.gif" alt="Imagem do Hamburguer">
+                    <div class="txt-itens">
+                        <span id="txt-mario">CHAVEIROS AVULSOS DO MARIO WORLD </span>
+                    </div>
+
+
+                </div>
+        </section>
+    </main>
+
+    <footer class="rodape" id="item4">
+
+        <div class="rodape-section1">
+            <h1> CONTATOS</h1>
+            <span> bymodela@gmail.com</span>
+            <span> (11) 948410026</span>
+
+        </div>
+
+        <div class="rodape-section2">
+            <h1> PARCEIROS</h1>
+            <img src="/src/img/3dlab.jpg" alt="">
+            <span>CUPOM BYMODELA5</span>
+        </div>
+        <div class="rodape-section3">
+            <h1> REDES SOCIAIS</h1>
+            <div class="icons-sociais">
+                <img src="/src/img/whatsapp.png" alt="Logo do WhatsApp">
+                <img src="/src/img/instagram.png" alt="Logo do instagram">
+                <img src="/src/img/logocults.png" alt="Logo do Cults">
+            </div>
+
+        </div>
+
+        <div class="rodape-section4">
+            <h1> FORMA DE PAGAMENTO</h1>
+            <img src="/src/img/logo-pix.png" alt="">
+
+        </div>
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator/qrcode.min.js"></script>
+    <script src="/src/script/script.js"></script>
+    
+
+
+</body>
+
+</html>
